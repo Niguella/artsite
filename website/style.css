@@ -1,0 +1,262 @@
+@font-face {
+font-family: "FireyeGF_3_Headline";
+src: url("webfonts/FireyeGF_3_Headline.ttf");
+}
+
+img:hover{
+    -webkit-filter: brightness(150%);
+}
+
+body{
+	font-family: "FireyeGF_3_Headline";
+	margin-top: -16px;
+	
+}
+
+.wrapper{
+	width:100%;
+	max-width: 1200px;
+	padding: 0 0px;
+	margin: 0px auto;
+}
+
+
+h1.header{
+	text-indent: -10000px;
+	height: 0;
+	margin: 0;
+}
+
+header nav{
+	float: right;
+}
+
+header nav h2{
+	text-indent: -10000px;
+	height: 0;
+	margin: 0;
+}
+
+header nav li{
+	list-style-type: none;
+	margin-right: 20px;
+	margin-top: 40px;
+	text-align:right;	
+}
+
+header nav li a{
+	text-decoration: none;
+	color: #EBEBEB;
+	font-size: 30px;
+}
+
+#main_banner{
+	background-image: url(img/Banner.jpg);
+	width:1200px;
+	height: 558px;
+  	top:0px;
+	background-repeat: no-repeat;
+  
+}
+
+#main_banner li{
+	list-style-type: none;
+	text-indent: -23px;
+	padding-top: 500px;
+}
+
+#home-links h2{
+	text-indent: -10000px;
+	height: 0;
+	margin: 0;
+}
+
+#home-links li{
+	list-style-type: none;
+	
+	position:relative;
+	float:left;
+	margin: 0px 1px 0px -15px;
+	padding: 8px 15px 0px 2px;
+}
+
+#league-links{
+    background-color: #171717;
+    height: 1000;
+    width: 100;
+}
+
+#league-links h2{
+	text-indent: -10000px;
+	height: 0;
+	margin: 0;
+}
+
+#league-links li{
+	list-style-type: none;
+	margin: 0px 0px 0px 170px;
+	padding: 0px 0px 0px 0px;
+}
+
+#league-links img{
+    height: auto;
+    width: 800px;
+	margin: 0px 100px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+#about{
+	background-image: url(img/body_info.jpg);
+    background-repeat: no-repeat;
+	display: block;
+	height: 608px;
+	width: 755;
+	background-repeat: no-repeat;
+	margin: 580px 0px 0px 433px;
+}
+
+
+
+#top-left{
+	background-image: url(img/Main_League.jpg);
+	display: block;
+	text-indent: -9999px;
+	height: 260px;
+	width: 367px;
+	background-repeat: no-repeat;
+	margin: 3px 4px 5px 6px;
+	padding: 0px 0px 0px 0px;
+}
+
+#bottom-left{
+	background-image: url(img/Main_Twitch.jpg);
+	display: block;
+	text-indent: -9999px;
+	height: 272px;
+	width: 367px;
+	background-repeat: no-repeat;
+	margin: 8px 4px 2px 6px;
+	padding: 0px 0px 0px 0px;
+	
+}
+
+#top-right{
+	background-image: url(img/Main_Youtube.jpg);
+	display: block;
+	text-indent: -9999px;
+	height: 260px;
+	width: 367px;
+	background-repeat: no-repeat;
+	margin: 3px 4px 5px 6px;
+	padding: 0px 0px 0px 0px;
+}
+
+#bottom-right{
+	background-image: url(img/Main_Upcoming.jpg);
+	display: block;
+	text-indent: -9999px;
+	height: 272px;
+	width: 367px;
+	background-repeat: no-repeat;
+	margin: 8px 4px 0px 6px;
+	padding: 0px 0px 0px 0px;
+}
+
+#twitch{
+    background-image: url(img/twitch-body.png);
+    display: block;
+    height: 1161px;
+	width: 745px;
+    margin: 25px 0px 0px 390px;
+}
+
+#pos-twitch{
+    margin: 25px 0px 0px 13.4px; 
+}
+
+p{
+	color: white;
+	text-align: left;
+    font-size: auto;
+    line-height: auto;
+}
+
+p.short-info{
+    color: white;
+    font-family: arial;
+	text-align: center;
+    font-size: 15px;
+    line-height: auto;
+}
+
+p.info{
+    color: white;
+    font-family: arial;
+	text-align: left;
+    font-size: 12px;
+    line-height: auto;
+}
+
+h3.about{
+    color: white;
+	text-align: center;
+    font-size: 38px;
+    width: auto;
+    margin: 10px 10px 0px 0px;
+    text-shadow: 2px 2px black;
+}
+
+h3.league{
+    color: white;
+	text-align: center;
+    font-size: 38px;
+    width: auto;
+    margin: 10px 200px 20px 0px;
+    text-shadow: 2px 2px black;
+}
+
+h4.league{
+    color: white;
+	text-align: center;
+    font-size: 38px;
+    width: auto;
+    margin: 10px 200px 20px 0px;
+    text-shadow: 2px 2px black;
+}
+
+h4{
+    color: white;
+	text-align: center;
+    font-size: 20px;
+    width: auto;
+    margin: 10px 0px 0px 0px;
+    text-shadow: 2px 2px black;
+    padding: 20px 0px 0px 20px;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: cornflowerblue;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+
+
+
+footer li{
+	text-align: right;
+	padding-right: 20px;
+	list-style-type: none;
+	font-size: 10px;
+}
+
